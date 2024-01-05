@@ -1,5 +1,5 @@
 import { tenExample1, tenExample2, tenExample3, tenExample4, tenExample5, tenExample6, tenExample7, tenExample8, tenExample9, tenExample10, tenExample11 , tenExample12, tenExample13, tenExample14, tenExample15, tenExample16, tenExample17, tenExample18, tenExample19, tenExample20 } from "./tenExamples.js";
-// import { deck1761, deck1781, deck1801 } from "./decks1761-1780.js";
+// import { deck1761, deck1781, deck1801 } from "./two.js";
 const objectsArray = [
     {cardNumber: "1", kanji: "沸", hiragana: "わかす・わく・ふつ", english: "to boil", example1: "やかんで水を沸かす", example2: "お湯が沸いている", jishoLink: "https://jisho.org/search/%E6%B2%B8", jimLink: "https://www.edrdg.org/cgi-bin/wwwjdic/wwwjdic?1MKU6CB8", moreExamples: tenExample1},
     {cardNumber: "2", kanji: "需", hiragana: "じゅ", english: "demand - request", example1: "需要が高まっている", example2: "需給の調整には慎重な計画が必要", jishoLink:"https://jisho.org/search/%E9%9C%80", jimLink: "https://www.edrdg.org/cgi-bin/wwwjdic/wwwjdic?1MKU9700", moreExamples: tenExample2},
