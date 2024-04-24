@@ -169,7 +169,7 @@ overflow-y: auto; max-height: 400px; display:block; text-align: center; font-siz
     margin: 15px auto 25px auto; z-index: 4; text-align: center;opacity: 0; animation: fadeIn 2s ease-in forwards; }
 #deckButton:hover{color:rgb(58, 58, 58); transform: scale(1.1);transition: transform .5s ease;}
 #deckButton:not(:hover){transition: transform .8s ease;}
-#deckWindow{display:none; position:fixed;top: 0; left: 0;width:320px;height:100%;background-color:rgb(255, 255, 255);
+#deckWindow{display:none; position:fixed;top: 0; left: 0;width:320px;height:100%;background-color:rgb(255, 255, 255, .6);
     padding: 20px; overflow-y: auto; z-index: 10;
     animation-duration: 0.5s; animation-timing-function: ease; animation-fill-mode:forwards;}
 #deckMinimize { border: none;padding: 10px 10px;  display: block; margin:8px 6px 22px 6px;
@@ -177,7 +177,7 @@ overflow-y: auto; max-height: 400px; display:block; text-align: center; font-siz
     font-size: small;  color: rgb(255, 255, 255);background-image: linear-gradient(to top, rgba(29, 37, 138, 0.4), rgba(108, 192, 231, 0.4));}    
 .sideDeckClass {border: none; cursor: pointer;
     padding: 10px 10px;  display: inline;  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.10);
-    border-radius: 30px;  position: relative;  font-size: small;  color: rgb(174, 174, 174);
+    border-radius: 30px;  position: relative;  font-size: small;  color: rgb(174, 174, 174);  left:10px;
     background-image: linear-gradient(to top, #c1c1c1, #eeeeee);margin:8px 6px;}
 .sideDeckClass:hover{color:rgb(0, 0, 0);} #deckMinimize:hover{color:rgb(0, 0, 0);}
 @keyframes slideOpen {
@@ -188,3 +188,4 @@ overflow-y: auto; max-height: 400px; display:block; text-align: center; font-siz
     to {transform: translateX(-100%);}}
 #deckWindow.open {animation-name: slideOpen;}
 #deckWindow.close {animation-name: slideClose;}
+#attribution {font-size: 11px; color: lightgray; position: relative; top: 800px; left: 10px}
